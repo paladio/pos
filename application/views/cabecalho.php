@@ -13,7 +13,7 @@
       
         
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-       <link href="<?= base_url("css/bootstrap.min.css")?>" rel="stylesheet">
+        <link href="<?= base_url("css/bootstrap.min.css")?>" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link href="<?= base_url("css/freelancer.css")?>" rel="stylesheet">
