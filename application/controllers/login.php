@@ -15,7 +15,7 @@ class Login extends CI_Controller {
 		
 		redirect('/');
 		
-                $this->load->view('produtos/formulario');
+            
 	}
 	
 	public function logout() {
