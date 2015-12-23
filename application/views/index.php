@@ -73,8 +73,8 @@
 
 
                     <?php if ($this->session->userdata("usuario_logado")) : ?>
-                        <?= anchor('produtos/formulario', 'Gerar requerimento', array("class" => "btn btn-primary")) ?>
-                        <?= anchor('login/logout', 'Logout', array("class" => "btn btn-primary")) ?>
+                        <?= base_url(anchor('produtos/formulario', 'Gerar requerimento', array("class" => "btn btn-primary"))) ?>
+                        <?= base_url(anchor('login/logout', 'Logout', array("class" => "btn btn-primary"))) ?>
 
                      
 
@@ -83,8 +83,8 @@
                     <?php else : ?>
 
                         <h1>Login</h1>
-                        <?php
-                        echo form_open("login/autenticar");
+                        <?php 
+                        echo base_url(form_open("login/autenticar"));
 
                         echo form_label("Email", "email");
                         echo form_input(array(
